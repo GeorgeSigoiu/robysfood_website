@@ -277,7 +277,6 @@ a {
 }
 #menu {
   position: relative;
-
   padding-top: 3rem;
   padding-bottom: 6rem;
   #image-1 {
@@ -337,7 +336,10 @@ a {
           padding-top: 1rem;
         }
         h3 {
-          padding-left: 3rem;
+          padding-left: 0.7rem;
+        }
+        .h3 {
+          padding-left: 3rem !important;
         }
         flex: 1;
         .item {
@@ -558,9 +560,19 @@ a {
     }
   }
   .modal {
-    width: 80%;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 22;
     .img {
-      height: 30vh;
+      width: 100%;
+      height: 40vh;
     }
   }
   #section-e {
@@ -877,9 +889,19 @@ a {
     }
   }
   .modal {
-    width: 80%;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 22;
     .img {
-      height: 30vh;
+      width: 100%;
+      height: 35vh;
     }
   }
   #menu {
@@ -1115,6 +1137,8 @@ a {
           .paragraph {
             color: white;
             font-size: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
           }
           .link {
             transition: 0.5s;
@@ -1355,10 +1379,10 @@ a {
   }
   .modal {
     position: absolute;
-    top: 67%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 70%;
     background-color: white;
     padding: 1rem;
     border-radius: 10px;
