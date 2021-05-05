@@ -38,7 +38,7 @@ document.addEventListener('keydown', function (e) {
 for(let i=0;i<images.length;i++){
   images[i].addEventListener('click',function(){
     openModal();
-    const url=`url('/img/mancare/food-${i+1}.jpg') no-repeat center center / cover`;
+    const url=`url('./img/mancare/food-${i+1}.jpg') no-repeat center center / cover`;
     imag.style.background=url;
   });
 }

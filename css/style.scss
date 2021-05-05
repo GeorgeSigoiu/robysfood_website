@@ -154,7 +154,11 @@ a {
         max-width: 300px;
         flex: 1;
         .image {
+          width: 100%;
           display: inline-block;
+
+          display: flex;
+          justify-content: center;
           img {
             width: 200px;
             height: 200px;
@@ -163,6 +167,7 @@ a {
         .paragraph {
           color: white;
           font-size: 1.4rem;
+          text-align: center;
         }
       }
       #item-2 img {
@@ -331,6 +336,9 @@ a {
           padding-bottom: 1rem;
           padding-top: 1rem;
         }
+        h3 {
+          padding-left: 3rem;
+        }
         flex: 1;
         .item {
           display: flex;
@@ -434,7 +442,7 @@ a {
       }
       p {
         font-size: 1.1rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
       }
       ul {
         list-style: none;
