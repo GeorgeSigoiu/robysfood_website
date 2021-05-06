@@ -115,18 +115,3 @@
     transform: translateX(0);
   }
 }
-.show {
-  visibility: visible !important;
-  animation: apear 1s forwards;
-}
-@keyframes apear {
-  0% {
-    transform: translateY(80rem);
-  }
-  75% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
