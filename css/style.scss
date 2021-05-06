@@ -15,6 +15,7 @@ a {
 }
 #showcase {
   position: relative;
+  overflow: hidden;
   .back-image {
     position: relative;
     background: url("../img/mancare/food-11.jpg") no-repeat center center /
@@ -44,7 +45,9 @@ a {
         .title {
           color: white;
           font-size: 10rem;
+          display: inline-block;
         }
+
         .paragraph {
           color: white;
           font-size: 3rem;
@@ -1598,6 +1601,26 @@ a {
           }
         }
       }
+    }
+  }
+  .fb-link {
+    position: fixed;
+    right: 15px;
+    bottom: 50px;
+    opacity: 0.7;
+    z-index: 30;
+    background: rgb(13, 139, 240);
+    color: white;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    transition: 0.4s;
+    &:hover {
+      opacity: 1;
+      background: rgb(50, 100, 255);
     }
   }
 }
