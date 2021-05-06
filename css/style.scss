@@ -89,6 +89,7 @@ a {
   .content {
     display: flex;
     .text {
+      visibility: hidden;
       padding-right: 2rem;
       margin-left: 1.2rem;
       position: relative;
@@ -239,6 +240,7 @@ a {
       }
     }
     .text {
+      visibility: hidden;
       flex: 4;
     }
   }

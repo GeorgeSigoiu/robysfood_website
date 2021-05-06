@@ -42,3 +42,37 @@ for(let i=0;i<images.length;i++){
     imag.style.background=url;
   });
 }
+
+
+////////////////////
+const items = document.querySelector('#section-a .container .content .text');
+console.log(items);
+const isInViewport = el => {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight+100 || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+};
+
+const run = function() {
+  if(isInViewport(items)){
+  items.classList.add("show");
+}};
+
+// Events
+window.addEventListener('load', run);
+window.addEventListener('resize', run);
+window.addEventListener('scroll', run);
+
+const items2 = document.querySelector('#section-c .container .content .text');
+const run2 = function() {
+  if(isInViewport(items2)){
+  items2.classList.add("show");
+}};
+window.addEventListener('load', run2);
+window.addEventListener('resize', run2);
+window.addEventListener('scroll', run2);
