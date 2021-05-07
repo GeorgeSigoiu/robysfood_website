@@ -131,7 +131,7 @@ a {
   position: relative;
   z-index: -2;
   .parallax {
-    background: url("../img/mancare/wine.jpg") no-repeat center center / cover;
+    background: url("../img/mancare/wine1.png") no-repeat center center / cover;
     height: 100%;
     width: 100%;
     background-attachment: fixed;
@@ -248,7 +248,7 @@ a {
   padding-top: 4rem;
   padding-bottom: 4rem;
   width: 100%;
-  background: url("../img/png/background.jpg") no-repeat center center / cover;
+  background: url("../img/png/background1.png") no-repeat center center / cover;
   background-attachment: fixed;
   &::before {
     content: "";
@@ -376,7 +376,7 @@ a {
 #section-e {
   padding-top: 4rem;
   position: relative;
-  background: url("../img/png/forest.jpg") no-repeat center center / cover;
+  background: url("../img/png/forest1.png") no-repeat center center / cover;
   background-attachment: fixed;
   &:before {
     content: "";
